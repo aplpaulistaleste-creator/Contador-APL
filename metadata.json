@@ -1,0 +1,5 @@
+{
+  "name": "Countdown Timer",
+  "description": "A visually appealing countdown timer with a custom background. Users can set a duration from 1 to 60 minutes and control the timer with start, pause, and reset buttons.",
+  "requestFramePermissions": []
+}
