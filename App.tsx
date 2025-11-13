@@ -79,7 +79,7 @@ const App: React.FC = () => {
       className="min-h-screen w-full bg-cover bg-center flex items-center justify-center p-4 transition-all duration-500"
       style={{ backgroundImage: `url(${backgroundImageUrl})` }}
     >
-      <div className="relative z-10 w-full max-w-2xl text-white text-center p-6 md:p-10 bg-black bg-opacity-30 rounded-2xl shadow-2xl backdrop-blur-md border border-white/20">
+      <div className="relative z-10 w-full max-w-4xl text-white text-center p-6 md:p-10 bg-black bg-opacity-30 rounded-2xl shadow-2xl backdrop-blur-md border border-white/20">
         
         <header>
           <h1 className="text-4xl md:text-5xl font-bold tracking-wider" style={{ textShadow: '0 2px 10px rgba(0,0,0,0.5)' }}>
@@ -88,7 +88,7 @@ const App: React.FC = () => {
         </header>
 
         <section className="my-8 md:my-12">
-          <div className="text-7xl md:text-9xl font-mono font-bold" style={{ textShadow: '0 0 20px rgba(255, 255, 255, 0.5)' }}>
+          <div className="text-8xl md:text-[16rem] font-mono font-bold" style={{ textShadow: '0 0 20px rgba(255, 255, 255, 0.5)' }}>
             {formatTime(timeLeft)}
           </div>
         </section>
